@@ -14,5 +14,5 @@ PROMPT_COMMAND='if [[ "$bashrc" != "$PWD" && "$PWD" != "$HOME" && -e .bashrc ]];
 
 > If you are using zsh also add the following statement to all `.bashrc` files
 > ```
-precmd() { eval "$PROMPT_COMMAND" }
-```
+> precmd() { eval "$PROMPT_COMMAND" }
+> ```
